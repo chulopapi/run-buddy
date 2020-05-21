@@ -9,6 +9,7 @@ body {
      /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
+  
 }
 
 /* apply styles to <header> */
@@ -45,6 +46,10 @@ header nav ul li a {
     display: inline;
   }
 
+
+
+
+
   footer {
     background: #fce138;
     width: 100%;
@@ -66,4 +71,10 @@ header nav ul li a {
 
  footer a {
    color: #024e76;
+ }
+
+
+ section {
+   padding: 60px;
+   background-image: url("../images/hero-bg.jpg");
  }
