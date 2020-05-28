@@ -97,6 +97,8 @@ header nav ul li a {
   border-style: solid;
   border-width: 3px;
   border-color: #024e76;
+  margin: 3.5%;
+  width: 40%;
 }
 
 hero-form h3 {
@@ -106,6 +108,21 @@ hero-form h3 {
 
 .hero-form p {
   margin: 5px 0 15px 0;
+}
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce138;
 }
 
 .form-input {
@@ -131,19 +148,17 @@ hero-form h3 {
 }
 /* HERO STYLES END */
 
-.intro {
-  text-align: center;
-}
 
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
+  text-align: center;
 }
 
 .steps { 
-  text-align: center;
+
   background: #fce138;
 }
 
@@ -152,9 +167,7 @@ hero-form h3 {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
+
   border-bottom: 3px solid;
 }
 
@@ -191,9 +204,9 @@ hero-form h3 {
   font-size: 38px;
 }
 
-.trainers {
-  text-align: center;
-}
+/*.trainers {
+ 
+}*/
 
 .trainer {
   width: 900px;
@@ -242,13 +255,16 @@ hero-form h3 {
   font-size: 55px;
   display: inline-block;
   padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
+  border-bottom: 20px;
+  margin: 0 auto 35px auto;
   margin-bottom: 35px;
   color: #024e76;
+  text-align: center;
+  width: 50%;
 }
 
 .contact {
-  text-align: center;
+ 
   background: #024e76;
 }
 
@@ -290,4 +306,8 @@ hero-form h3 {
 
 .contact-info a {
   color: #fce138;
+}
+
+.flex-row {
+  display: flex;
 }
