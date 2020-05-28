@@ -427,6 +427,28 @@ step {
   border: solid;
   color: black;
 }
+.service-grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 10px;
+  grid-auto-flow: column;
+}
+
+
+
+.service-grid-item {
+  background-color: orange;
+  border: solid;
+  padding: 1em;
+  color: black;
+}
+
+.box1 {
+  grid-column: 2/ span 2; 
+  grid-row: 3/ span 1; 
+}
+
 
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
